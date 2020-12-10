@@ -1,0 +1,2 @@
+shiny gold bags contain 1 dark olive bag
+dark olive bags contain no other bags.
