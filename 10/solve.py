@@ -34,4 +34,5 @@ def num_ways(adapters, depth=""):
     return ways
 
 
+# problem might be jumping around 0?
 print(num_ways(adapters))
