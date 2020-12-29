@@ -1,0 +1,50 @@
+to find the smallest solution, take their common product, then subtract bignum * (magic number)
+later solutions can be found by adding common product to the smallest solution
+at their common product, there is 0 offset between them
+at their common product - larger number, offset = small-big%small
+
+Magic number: 4
+5,11
+11
+5,x,11
+22
+5,x,x,11
+33
+5,x,x,x,11
+44
+
+Magic number: 2
+3,7
+7
+
+Magic number: 1
+7,13
+78
+7,x,13
+65
+7,x,x,13
+52
+
+Magic number: 2
+3,13
+13
+3,x,13
+26
+3,x,x,13
+39
+
+# find common product
+# 
+
+
+7,13
+78
+169
+13 * 7 + x = n
+13 * 7 + x = n-1
+
+
+
+7,13,x,17
+
+y=1/b(s*x-1)
